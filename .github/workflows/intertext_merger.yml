@@ -33,7 +33,7 @@ jobs:
         
     - name: Commmit changes
       run: |
-        sh git_config_account.sh
+        sh .github/script/git_config_account.sh
         git add data/output/*
         git commit -m "update output data"
   
